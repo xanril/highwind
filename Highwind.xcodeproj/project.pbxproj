@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350E0C862C298C46005DEA34 /* MobileConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 350E0C852C298C46005DEA34 /* MobileConfiguration.plist */; };
+		35188A642B80577900587C6B /* Highwind+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35188A632B80577900587C6B /* Highwind+Injection.swift */; };
+		358B08182B9C866A008FFF13 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 358B08172B9C866A008FFF13 /* Factory */; };
+		358B081A2B9C8671008FFF13 /* HighwindLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 358B08192B9C8671008FFF13 /* HighwindLibrary */; };
+		35B4C9122B75E6B30012A04C /* DigitalApiDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B4C9112B75E6B30012A04C /* DigitalApiDataClient.swift */; };
+		35B4C9172B75E87D0012A04C /* HttpNavitaireTokenAuthHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B4C9162B75E87D0012A04C /* HttpNavitaireTokenAuthHandler.swift */; };
+		35B6954D2B765CD9005B4D5A /* MobileConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B6954C2B765CD9005B4D5A /* MobileConfiguration.swift */; };
+		35B6954F2B76606C005B4D5A /* HttpAzureApiKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B6954E2B76606C005B4D5A /* HttpAzureApiKeyHandler.swift */; };
+		35C307602B3BBB7800A5A4F6 /* HighwindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3075F2B3BBB7800A5A4F6 /* HighwindApp.swift */; };
+		35C307642B3BBB7900A5A4F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C307632B3BBB7900A5A4F6 /* Assets.xcassets */; };
+		35C307672B3BBB7900A5A4F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C307662B3BBB7900A5A4F6 /* Preview Assets.xcassets */; };
+		35ED18082BDF925A0011E9D3 /* HighwindSkin in Frameworks */ = {isa = PBXBuildFile; productRef = 35ED18072BDF925A0011E9D3 /* HighwindSkin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		350E0C852C298C46005DEA34 /* MobileConfiguration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MobileConfiguration.plist; sourceTree = "<group>"; };
+		35188A632B80577900587C6B /* Highwind+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Highwind+Injection.swift"; sourceTree = "<group>"; };
+		35B4C9112B75E6B30012A04C /* DigitalApiDataClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitalApiDataClient.swift; sourceTree = "<group>"; };
+		35B4C9162B75E87D0012A04C /* HttpNavitaireTokenAuthHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpNavitaireTokenAuthHandler.swift; sourceTree = "<group>"; };
+		35B6954C2B765CD9005B4D5A /* MobileConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileConfiguration.swift; sourceTree = "<group>"; };
+		35B6954E2B76606C005B4D5A /* HttpAzureApiKeyHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpAzureApiKeyHandler.swift; sourceTree = "<group>"; };
+		35C3075C2B3BBB7800A5A4F6 /* Highwind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Highwind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C3075F2B3BBB7800A5A4F6 /* HighwindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighwindApp.swift; sourceTree = "<group>"; };
+		35C307632B3BBB7900A5A4F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35C307662B3BBB7900A5A4F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35ED18062BDF91B60011E9D3 /* Skin */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Skin; path = Highwind/Skin; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35C307592B3BBB7800A5A4F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35ED18082BDF925A0011E9D3 /* HighwindSkin in Frameworks */,
+				358B081A2B9C8671008FFF13 /* HighwindLibrary in Frameworks */,
+				358B08182B9C866A008FFF13 /* Factory in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		356E50202B3BBEB30005ACF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35B4C9102B75E67B0012A04C /* DataClient */ = {
+			isa = PBXGroup;
+			children = (
+				35B4C9112B75E6B30012A04C /* DigitalApiDataClient.swift */,
+			);
+			path = DataClient;
+			sourceTree = "<group>";
+		};
+		35B4C9152B75E85E0012A04C /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				35B4C9162B75E87D0012A04C /* HttpNavitaireTokenAuthHandler.swift */,
+				35B6954E2B76606C005B4D5A /* HttpAzureApiKeyHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		35B6954B2B765CC5005B4D5A /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				35B6954C2B765CD9005B4D5A /* MobileConfiguration.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		35C307532B3BBB7800A5A4F6 = {
+			isa = PBXGroup;
+			children = (
+				35ED18062BDF91B60011E9D3 /* Skin */,
+				35C3075E2B3BBB7800A5A4F6 /* Highwind */,
+				35C3075D2B3BBB7800A5A4F6 /* Products */,
+				356E50202B3BBEB30005ACF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		35C3075D2B3BBB7800A5A4F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35C3075C2B3BBB7800A5A4F6 /* Highwind.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35C3075E2B3BBB7800A5A4F6 /* Highwind */ = {
+			isa = PBXGroup;
+			children = (
+				35B6954B2B765CC5005B4D5A /* Configurations */,
+				35B4C9152B75E85E0012A04C /* Handlers */,
+				35B4C9102B75E67B0012A04C /* DataClient */,
+				35C3075F2B3BBB7800A5A4F6 /* HighwindApp.swift */,
+				35188A632B80577900587C6B /* Highwind+Injection.swift */,
+				35C307632B3BBB7900A5A4F6 /* Assets.xcassets */,
+				35C307652B3BBB7900A5A4F6 /* Preview Content */,
+				350E0C852C298C46005DEA34 /* MobileConfiguration.plist */,
+			);
+			path = Highwind;
+			sourceTree = "<group>";
+		};
+		35C307652B3BBB7900A5A4F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				35C307662B3BBB7900A5A4F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35C3075B2B3BBB7800A5A4F6 /* Highwind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C3076A2B3BBB7900A5A4F6 /* Build configuration list for PBXNativeTarget "Highwind" */;
+			buildPhases = (
+				35C307582B3BBB7800A5A4F6 /* Sources */,
+				35C307592B3BBB7800A5A4F6 /* Frameworks */,
+				35C3075A2B3BBB7800A5A4F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Highwind;
+			packageProductDependencies = (
+				358B08172B9C866A008FFF13 /* Factory */,
+				358B08192B9C8671008FFF13 /* HighwindLibrary */,
+				35ED18072BDF925A0011E9D3 /* HighwindSkin */,
+			);
+			productName = Venture;
+			productReference = 35C3075C2B3BBB7800A5A4F6 /* Highwind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35C307542B3BBB7800A5A4F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					35C3075B2B3BBB7800A5A4F6 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 35C307572B3BBB7800A5A4F6 /* Build configuration list for PBXProject "Highwind" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35C307532B3BBB7800A5A4F6;
+			packageReferences = (
+				35188A602B80574700587C6B /* XCRemoteSwiftPackageReference "Factory" */,
+			);
+			productRefGroup = 35C3075D2B3BBB7800A5A4F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35C3075B2B3BBB7800A5A4F6 /* Highwind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35C3075A2B3BBB7800A5A4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C307672B3BBB7900A5A4F6 /* Preview Assets.xcassets in Resources */,
+				35C307642B3BBB7900A5A4F6 /* Assets.xcassets in Resources */,
+				350E0C862C298C46005DEA34 /* MobileConfiguration.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35C307582B3BBB7800A5A4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35188A642B80577900587C6B /* Highwind+Injection.swift in Sources */,
+				35B4C9172B75E87D0012A04C /* HttpNavitaireTokenAuthHandler.swift in Sources */,
+				35C307602B3BBB7800A5A4F6 /* HighwindApp.swift in Sources */,
+				35B6954F2B76606C005B4D5A /* HttpAzureApiKeyHandler.swift in Sources */,
+				35B4C9122B75E6B30012A04C /* DigitalApiDataClient.swift in Sources */,
+				35B6954D2B765CD9005B4D5A /* MobileConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		35C307682B3BBB7900A5A4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35C307692B3BBB7900A5A4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35C3076B2B3BBB7900A5A4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Highwind/Preview Content\"";
+				DEVELOPMENT_TEAM = A6AEZ35VE5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.codepersecond.highwind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35C3076C2B3BBB7900A5A4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Highwind/Preview Content\"";
+				DEVELOPMENT_TEAM = A6AEZ35VE5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.codepersecond.highwind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35C307572B3BBB7800A5A4F6 /* Build configuration list for PBXProject "Highwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C307682B3BBB7900A5A4F6 /* Debug */,
+				35C307692B3BBB7900A5A4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C3076A2B3BBB7900A5A4F6 /* Build configuration list for PBXNativeTarget "Highwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C3076B2B3BBB7900A5A4F6 /* Debug */,
+				35C3076C2B3BBB7900A5A4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		35188A602B80574700587C6B /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		358B08172B9C866A008FFF13 /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35188A602B80574700587C6B /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+		358B08192B9C8671008FFF13 /* HighwindLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HighwindLibrary;
+		};
+		35ED18072BDF925A0011E9D3 /* HighwindSkin */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HighwindSkin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 35C307542B3BBB7800A5A4F6 /* Project object */;
+}

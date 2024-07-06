@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DEFAULT_BASE_URL</key>
+	<string>__DEFAULT_BASE_URL__</string>
+	<key>DEFAULT_GATEWAY_SUBSCRIPTION_KEY</key>
+	<string>__DEFAULT_GATEWAY_SUBSCRIPTION_KEY__</string>
+	<key>DEFAULT_GATEWAY_SUBSCRIPTION_VALUE</key>
+	<string>__DEFAULT_GATEWAY_SUBSCRIPTION_VALUE__</string>
+</dict>
+</plist>
